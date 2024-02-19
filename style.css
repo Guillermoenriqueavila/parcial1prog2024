@@ -29,7 +29,25 @@ footer {
     background-color: lightgreen;
     padding: 10px;
     margin-top: 20px;
+    border: 1px solid #1c0505; /* Agregado para añadir un borde al footer */
 }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    border-bottom: 1px solid #1a0404; /* Agregado para añadir un borde entre los elementos de la lista */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer li img {
+    margin-left: 10px; /* Agregado para separar la imagen del texto en los elementos de la lista */
+}
+
 
 #horas_lectura{
     padding: 10px;
