@@ -1,17 +1,36 @@
-.titulo{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.titulo {
     background-color: aqua;
-    border-bottom: 3px;
-    border-color: solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
 }
 
-.descripcion{
+.descripcion {
     background-color: beige;
+    padding: 10px;
 }
 
-.contenido{
+.contenido {
     background-color: red;
+    padding: 10px;
 }
 
-footer{
-    background-color:lightgreen;
+footer {
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#horas_lectura{
+    padding: 10px;
 }
